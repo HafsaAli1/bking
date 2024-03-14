@@ -1,0 +1,296 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #f5ebdc;
+}
+
+
+/* Navigation Bar */
+nav {
+  background-color: #f5ebdc;
+  /* padding: 15px; */
+  font-size: 18px;
+  font-family: Flame Sans;
+  font-weight: bold;
+  padding-top: 0px;
+}
+
+a {
+  color: #502314;
+  font-family: Flame Sans;
+  position: relative;
+  bottom: 20px;
+}
+
+#a1 {
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+  bottom: 20px;
+}
+
+a:hover {
+  color: red
+}
+
+#Location {
+  text-decoration: none;
+  position: relative;
+  left: 175px;
+  bottom: 20px;
+}
+
+#i1{
+  position: relative;
+  right: 250px;
+}
+
+
+/* Buttons on Navigation */
+#b1 {
+  color: white;
+  background-color: red;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  border-color: red;
+  position: relative;
+  left: 360px;
+  bottom: 20px;
+  font-family: Flame Sans;
+  font-weight: bold;
+}
+
+#b2 {
+  color: white;
+  background-color: #502314;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  border-color: #502314;
+  position: relative;
+  left: 375px;
+  bottom: 20px;
+  font-family: Flame Sans;
+  font-weight: bold;
+}
+
+#Link {
+  position: relative;
+  left: 515px;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+
+/* Under Navigation */
+#p1 {
+  background-color: #502314;
+  color: white;
+  padding-top: 60px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  position: relative;
+  top: -15px;
+  font-family: Flame Sans;
+  font-weight: bold;
+}
+
+#i2 {
+  position: relative;
+  bottom: 20px;
+  right: 620px;
+}
+
+#b3 {
+  color: white;
+  background-color: #502314;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  border-color: white;
+  position: relative;
+  left: 210px;
+  bottom: 30px;
+  font-family: Flame Sans;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+
+
+/* Image Grid */
+#imageGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 2px;
+} 
+
+#image1{
+  top: 90px;
+  left: 100px;
+}
+
+#image2{
+  top: 90px;
+}
+
+#image3{
+  left: 100px;
+  top: 190px;
+}
+
+#image4{
+  top: 190px;
+}
+
+.imageContainer {
+    position: relative;
+}
+
+.imageContainer img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+
+
+/* To add text boxes under the images */
+#infoBox1{
+  top: 553px;
+  left: 106px;
+  width: 462px; 
+}
+
+#infoBox2{
+  top: 553px;
+}
+
+#infoBox3{
+  left: 106px;
+  top: 910px;
+}
+
+#infoBox4{
+  top: 910px;
+}
+
+
+/* Buttons in text boxes */
+#button1{
+  color: red;
+  background-color: white;
+  border: 1px solid red;
+  position: relative;
+  left: 270px;
+  top: 10px;
+}
+
+#button2{
+  color: #f5ebdc;
+  background-color: red;
+  position: relative;
+  top: 10px;
+  left: 100px;
+}
+
+#button3{
+  color: #f5ebdc;
+  background-color: red;
+  position: relative;
+  top: 10px;
+  left: 90px;
+}
+
+#button4{
+  color: #f5ebdc;
+  background-color: red;
+  position: relative;
+  top: 10px;
+  left: 30px;
+}
+
+
+/* To add text to phone section */
+#h2{
+  position: relative;
+  top: 50px;
+  left: 800px;
+  font-family: flame sans;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+#h3{
+  position: relative;
+  bottom: 5px;
+  left: 800px;
+  font-family: flame sans;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+#h4{
+  position: relative;
+  bottom: 80px;
+  left: 800px;
+  font-family: flame sans;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+
+#paragraph1{
+  position: relative;
+  left: 800px;
+  bottom: 20px;
+}
+
+#paragraph2{
+  position: relative;
+  left: 800px;
+  bottom: 25px;
+}
+
+#paragraph3{
+  position: relative;
+  left: 800px;
+  bottom: 30px;
+}
+
+
+/* Footer */
+#h5{
+  position: relative;
+  top: 100px;
+  left: 100px;
+  font-size: 23px;
+  font-family: flame sans;;
+}
+
+#h6{
+  position: relative;
+  top: 20px;
+  left: 600px;
+  font-size: 23px;
+  font-family: flame sans;
+}
+
+#h7{
+  position: relative;
+  top: 190px;
+  left: 100px;
+  font-size: 23px;
+  font-family: flame sans;
+}
